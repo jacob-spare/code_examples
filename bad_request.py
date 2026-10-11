@@ -1,7 +1,7 @@
 import requests
 
 # SECURITY FLAW 1: Hardcoded API key/secret in source code
-API_KEY = "sk_live_fake_123456789abcdefghijklmnopqrstuvwxyz"
+API_KEY = "sk_live_123456789abcdefghijklmnopqrstuvwxyz"
 API_URL = "https://example.com"
 
 def fetch_user_data(user_id):
